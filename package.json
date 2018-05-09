@@ -1,0 +1,21 @@
+{
+  "name": "socketio-debugger",
+  "version": "1.0.0",
+  "description": "A dead simple debugger for Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "socketio-debugger": "./index.js"
+  },
+  "keywords": [],
+  "author": "Siwat Pruksapanya <siwat.pru@outlook.com>",
+  "license": "MIT",
+  "repository": "https://github.com/siwatpru/socketio-debugger",
+  "dependencies": {
+    "consola": "^1.3.0",
+    "prettyjson": "^1.2.1",
+    "socket.io-client": "^2.1.0"
+  }
+}
